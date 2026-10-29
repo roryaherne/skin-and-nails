@@ -131,7 +131,7 @@ p { margin: 0 0 1.2em; }
 .article-meta { color: var(--muted); font-size: 13px; }
 .article-image { width: 100%; max-height: 580px; margin: 30px 0 42px; object-fit: cover; }
 .gallery-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; padding-bottom: 100px; }
-.gallery-grid img { width: 100%; height: 400px; object-fit: cover; background: #e6dfd2; border-radius: var(--radius-lg);}
+.gallery-grid img { width: 100%; height: 400px; object-fit: cover; background: #e6dfd2; border-radius: var(--radius-lg); box-shadow: var(--box-shadow); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; padding-bottom: 100px; }
 .contact-card { padding: 30px; border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius-lg);}
 .contact-card h2 { font-size: 26px; }
