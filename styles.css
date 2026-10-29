@@ -65,6 +65,7 @@ p { margin: 0 0 1.2em; }
   min-height: 48px;
   padding: 0 23px;
   border: 1px solid var(--olive-deep);
+  border-radius: 0.25rem;
   background: var(--olive-deep);
   color: #fffdf9;
   text-decoration: none;
