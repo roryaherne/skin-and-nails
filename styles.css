@@ -47,9 +47,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .brand img { width: 58px; height: 58px; object-fit: contain; mix-blend-mode: multiply; }
   .brand-name { font: 600 18px/1.1 var(--serif); letter-spacing: .04em; }
   .brand-byline { display: block; margin-top: 5px; color: var(--muted); font-size: 11px; letter-spacing: .18em; text-transform: uppercase; }
-  .site-menu { position: relative; }
+  .site-menu { display: none; position: relative; }
   .site-menu summary { display: none; }
-  .site-menu:not([open]) > nav { display: flex; }
   nav { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: clamp(12px, 2vw, 29px); }
   nav a { text-decoration: none; font-size: 13px; font-weight: 600; }
   nav a:hover, nav a[aria-current='page'] { color: var(--olive); }
@@ -157,7 +156,8 @@ p { margin: 0 0 1.2em; }
 
 @media (max-width: 800px) {
   .site-header .header-inner { width: min(var(--content), calc(100% - 32px)); min-height: 78px; padding-block: 10px; align-items: center; gap: 12px; }
-  .site-header .site-menu { flex: 0 0 auto; }
+  .site-header .desktop-nav { display: none; }
+  .site-header .site-menu { display: block; flex: 0 0 auto; }
   .site-header .site-menu summary {
     display: flex;
     align-items: center;
